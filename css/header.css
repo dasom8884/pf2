@@ -1,0 +1,63 @@
+/* 상단영역 */
+header {
+  padding: 0 60px;
+}
+header div.wrap {
+  max-width: initial;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+}
+header div.wrap h1 {
+  
+}
+header div.wrap h1 a {
+  
+}
+header div.wrap ul {
+  
+}
+header div.wrap ul li {
+  
+}
+header div.wrap ul li a {
+  padding: 0 20px;
+  line-height: 2.5;
+  border-radius: 5px; 
+}
+header div.wrap ul li a:hover{
+  background-color: #eee;
+}
+header div.wrap span {
+  
+}
+header div.wrap span a {
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+header div.wrap span:nth-child(2){
+  color:#f6552d;
+}
+header div.wrap span:nth-child(2)::after{
+  content:"";
+  width: 5px;
+  height: 5px;
+  border: 2px solid;
+  display: inline-block;
+  transform: translateY(-1px) rotate(45deg);
+  border-left: transparent;
+  border-bottom: transparent;
+  margin-left: 3px  
+}
+header div.wrap span button {
+  background-color: #000;
+  color: #fff;
+  height: 36px;
+  border-radius: 8px;
+  padding: 0 16px;
+  align-self: center;
+}
+header div.wrap span button:hover{
+  background-color: #484848;
+}
